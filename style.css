@@ -1,2 +1,16 @@
-@media (min-width: 375px)
+logo {
+    width: 70px;
+    height: 24px;
+    top: 10px;
+    left: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
 
