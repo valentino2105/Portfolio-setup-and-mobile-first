@@ -33,7 +33,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 124px;
-    width: 327px;
+    width: 375px;
     left: 24px;
     top: 120px;
     font-family: 'Crete Round', serif;  
@@ -64,7 +64,7 @@ body {
 }
 
 .h2-description {
-    width: 327px;
+    width: 375px;
     height: 27px;
     top: 256px;
     left: 24px;
@@ -78,6 +78,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 12px 0;
+    height: 8vh
 }
 
 .p-description {
@@ -86,7 +87,7 @@ body {
     height: 123px;
     width: 327px;
     left: 24px;
-    top: 295px;
+    top: 195px;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     font-weight: 400;
@@ -103,15 +104,15 @@ p {
 
 .icons-container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 120px 24px;
     gap: 12px;
     position: absolute;
     width: 375px;
     height: 590px;
-    left: 0px;
-    top: 92px;
+    left: 0;
+    top: 40%;
+    margin-top: 10px;
 }
 
 a {
@@ -130,5 +131,4 @@ a {
 
 .navbar-hamb {
     background: #FFFFFF;
-
 }
