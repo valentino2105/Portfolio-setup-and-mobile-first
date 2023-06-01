@@ -1,136 +1,135 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 #header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .my-logo {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background: #1C1A19;
-    display: flex; 
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 24px;
-    gap: 12px;
-    position: absolute;
-    width: 375px;
-    height: 590px;
-    left: 0px;
-    top: 92px;
+  background: #1c1a19;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0;
+  top: 92px;
 }
 
 .h1 {
-    display: flex;
-    justify-content: space-between;
-    height: 124px;
-    width: 375px;
-    left: 24px;
-    top: 120px;
-    font-family: 'Crete Round', serif;  
-    color: #FF6B00;
-    font-weight: 400;
-    font-size: 56px;
-    letter-spacing: 0.37px;
-    margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  height: 124px;
+  width: 375px;
+  left: 24px;
+  top: 120px;
+  font-family: 'Crete Round', serif;
+  color: #ff6b00;
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 0.37px;
+  margin: 10px 0;
 }
 
 .nav {
-    background: #3C3A39;
-    background-size: 200%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 20px;
-    position: absolute;
-    width: 375px;
-    height: 92px;
-    left: 0px;
-    top: 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
+  background: #3c3a39;
+  background-size: 200%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .h2-description {
-    width: 375px;
-    height: 27px;
-    top: 256px;
-    left: 24px;
-    font-family: 'Roboto', sans-serif;
-    color: #FFF5E1;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 12px 0;
-    height: 8vh
+  width: 375px;
+  top: 256px;
+  left: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff5e1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  height: 8vh;
 }
 
 .p-description {
-    display: flex;
-    justify-content: space-between;
-    height: 123px;
-    width: 327px;
-    left: 24px;
-    top: 195px;
-    font-family: 'Poppins', sans-serif;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 12px 0;
-    order: 2;
-    flex-grow: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 123px;
+  width: 327px;
+  left: 24px;
+  top: 195px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 0;
+  order: 2;
+  flex-grow: 0;
 }
 
 p {
-    display: block;
+  display: block;
 }
 
 .icons-container {
-    display: flex;
-    align-items: center;
-    padding: 120px 24px;
-    gap: 12px;
-    position: absolute;
-    width: 375px;
-    height: 590px;
-    left: 0;
-    top: 40%;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0;
+  top: 40%;
+  margin-top: 10px;
 }
 
 a {
-    text-decoration: none;
-    color: #DBD8D7;
+  text-decoration: none;
+  color: #dbd8d7;
 }
 
 .main-icon {
-    height: 20px;
-    width: 18px;
-    left: 0.01px;
-    top: 0px;
-    border-radius: 0px;
-    margin: 10px;
+  height: 20px;
+  width: 18px;
+  left: 0.01px;
+  top: 0;
+  border-radius: 0;
+  margin: 10px;
 }
 
 .navbar-hamb {
-    background: #FFFFFF;
-    width: 18px;
-    height: 18px;
+  background: #fff;
+  width: 18px;
+  height: 18px;
 }
