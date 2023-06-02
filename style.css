@@ -112,6 +112,7 @@ p {
   left: 0;
   top: 40%;
   margin-top: 10px;
+  list-style-type: none;
 }
 
 a {
