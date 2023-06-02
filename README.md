@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Portfolio](#-portfolio-)
+- [📖 Portfolio ](#-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -57,7 +57,7 @@ Portfolio is my new project I created in Microverse course using HTML and CSS.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/valentino2105/Portfolio-setup-and-mobile-first)
+- [Live Demo Link] <a href="#">Coming Soon</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
