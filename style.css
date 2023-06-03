@@ -133,3 +133,11 @@ a {
   width: 26px;
   height: 22px;
 }
+
+.illustration-container {
+  position: absolute;
+  left: 40%;
+  bottom: 30%;
+  max-width: 45%;
+  max-height: 55%;
+}
